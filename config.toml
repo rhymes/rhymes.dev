@@ -1,3 +1,38 @@
 baseURL = "rhymes.dev"
 languageCode = "en-us"
 title = "rhymes.dev"
+theme = "hugo-coder"
+
+# Hugo Coder Theme
+[params]
+  author = "rhymes"
+  info = "Software developer"
+  description = "rhymes personal site"
+  keywords = "rhymes,software,developer,web"
+
+  avatarURL = "images/avatar.jpg"
+  favicon_32 = "images/favicon_32.png"
+  favicon_16 = "images/favicon_16.png"
+  touchIcon = "images/apple-touch-icon.png"
+  since = "2021"
+  colorScheme = "auto"
+
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/rhymes"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 2
+  url = "https://twitter.com/rhymes_"
+
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
