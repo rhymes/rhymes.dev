@@ -1,5 +1,5 @@
 ---
-date: 2018-11-06T20:14:40Z
+date: 2018-12-18T17:09:14Z
 description: A big rewrite
 slug: a-big-rewrite
 tags: [softwaredevelopment, rewrites]
