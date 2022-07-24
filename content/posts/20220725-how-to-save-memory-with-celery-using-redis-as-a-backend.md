@@ -52,6 +52,26 @@ result_expires=43200
 
 Other things to keep in mind: [Redis itself can be configured to evict keys](https://redis.io/docs/manual/eviction/) thus potentially never reaching its limit. Though definitely important, if not paramount in some situations, understanding what is causing the memory issues was my priority.
 
+## How to tell Celery not to ignore results when they are needed?
+
+Remember the initial task?
+
+```python
+@app.task
+def hello():
+    return 'hello world'
+```
+
+Add a param to the decorator:
+
+```python
+@app.task(ignore_result=False)
+def hello():
+    return 'hello world'
+```
+
+[ignore_result](https://docs.celeryq.dev/en/stable/userguide/tasks.html#ignore-results-you-don-t-want) is the magic keyword.
+
 ## Conclusion
 
 After deploying the change and waiting for the existing result keys in Redis to expire, a noticeable reduction in the memory footprint was witnessed, with a 7x reduction in number of Redis keys and a lot of saved bandwidth of course.
