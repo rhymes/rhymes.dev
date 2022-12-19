@@ -24,17 +24,18 @@ pygmentsUseClasses = true
 [[params.social]]
   name = "GitHub"
   icon = "fa fa-github fa-2x"
-  weight = 1
   url = "https://github.com/rhymes"
 [[params.social]]
   name = "Twitter"
   icon = "fa fa-twitter fa-2x"
-  weight = 2
   url = "https://twitter.com/rhymes_"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa fa-brands fa-mastodon fa-2x"
+  url = "https://hachyderm.io/@rhymes"
 [[params.social]]
   name = "Email"
   icon = "fa fa-envelope fa-2x"
-  weight = 2
   url = "mailto:me@rhymes.dev"
 
 [[menu.main]]
