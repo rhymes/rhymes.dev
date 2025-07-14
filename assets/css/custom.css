@@ -1,1 +1,18 @@
 video { width: 100% }
+
+/* work experience */
+.company__list {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+}
+
+.company__list li {
+  list-style: none;
+}
+
+.company__list .company__name {
+  font-weight: bold;
+}

@@ -1,4 +1,5 @@
 baseURL = ""
+enableEmoji = true
 languageCode = "en-us"
 title = "rhymes.dev"
 theme = "hugo-coder"
@@ -6,6 +7,10 @@ pygmentsUseClasses = true
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
     [markup.goldmark.renderer]
       unsafe = true
 
@@ -51,6 +56,10 @@ pygmentsUseClasses = true
   weight = 1
   url  = "posts/"
 [[menu.main]]
-  name = "About"
+  name = "Work experience"
   weight = 2
+  url = "work/"
+[[menu.main]]
+  name = "About"
+  weight = 3
   url = "about/"
