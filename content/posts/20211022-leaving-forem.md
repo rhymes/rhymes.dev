@@ -6,4 +6,4 @@ tags: [career]
 title: Leaving Forem
 ---
 
-{{< tweet user="rhymes_" id="1451665208687177737" >}}
+{{< x user="rhymes_" id="1451665208687177737" >}}

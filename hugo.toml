@@ -4,6 +4,14 @@ title = "rhymes.dev"
 theme = "hugo-coder"
 pygmentsUseClasses = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+  [markup.highlight]
+    style = "base16-snazzy"
+
 # Hugo Coder Theme
 [params]
   author = "rhymes"
@@ -19,15 +27,15 @@ pygmentsUseClasses = true
   colorScheme = "auto"
   enableTwemoji = false
 
-  customCSS = ["css/highlight.css"]
+  customCSS = ["css/custom.css"]
 
 [[params.social]]
   name = "GitHub"
   icon = "fa fa-github fa-2x"
   url = "https://github.com/rhymes"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
+  name = "Twitter/X"
+  icon = "fa fa-x fa-2x"
   url = "https://twitter.com/rhymes_"
 [[params.social]]
   name = "Mastodon"

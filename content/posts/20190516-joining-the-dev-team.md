@@ -6,4 +6,4 @@ tags: [career]
 title: I'm joining the DEV team
 ---
 
-{{< tweet user="rhymes_" id="1128977631100248064" >}}
+{{< x user="rhymes_" id="1128977631100248064" >}}
