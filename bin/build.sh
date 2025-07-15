@@ -10,15 +10,16 @@ set -o errexit
 ORIGINAL_DIR="$PWD"
 
 # Install specific version of Hugo
-HUGO_VERSION="v0.148.1"  # Change this to your required version
-echo "Installing Hugo ${HUGO_VERSION}..."
+HUGO_VERSION="0.148.1"  # Change this to your required version
 
 # Create directory for Hugo download and installation
+echo "Create Hugo directories ${HUGO_VERSION}..."
 mkdir -p "${HOME}/bin"
 mkdir -p /tmp/hugo
 cd /tmp/hugo
 
 # Download and install specific Hugo version
+echo "Downloading Hugo ${HUGO_VERSION}..."
 wget -q https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 tar -xzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
 
@@ -29,6 +30,7 @@ mv hugo "${HOME}/bin/"
 export PATH="${HOME}/bin:${PATH}"
 
 # Verify installation
+echo "Building with Hugo ${HUGO_VERSION}..."
 hugo version
 
 # Return to project directory
