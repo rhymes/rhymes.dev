@@ -6,7 +6,9 @@ Hi, I'm rhymes.
 
 I am an experienced programmer, my pronouns are he/him.
 
-Most recently I worked at [Forem](https://www.forem.com/) from May 2019 until October 2021, as Senior and then Principal Software Engineer. I was working as an opensource maintainer and contributing to the entire stack:
+Most recently in tech I worked at [Block Party](https://www.blockpartyapp.com) on what is now known as [Block Party Classic](https://www.blockpartyapp.com/faqs/whats-the-difference-between-block-party-and-privacy-party), a Django + NodeJS web application with satellite services backed by PostgreSQL, Redis and RabbitMQ.
+
+Before that I worked at [Forem](https://www.forem.com/) from May 2019 until October 2021, as Senior and then Principal Software Engineer. I was working as an opensource maintainer and contributing to the entire stack:
 
 - **database**: query plan optimization, schema design and evolution and more. I have extensive experience with PostgreSQL and I'm good at knowing when PostgreSQL is enough, when it's the best choice and when it's not.
 
