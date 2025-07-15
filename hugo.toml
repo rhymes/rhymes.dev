@@ -38,6 +38,10 @@ pygmentsUseClasses = true
   name = "GitHub"
   icon = "fa fa-github fa-2x"
   url = "https://github.com/rhymes"
+  [[params.social]]
+    name = "DEV"
+    icon = "fa fa-brands fa-dev fa-2x"
+    url = "https://dev.to/rhymes"
 [[params.social]]
   name = "Twitter/X"
   icon = "fa fa-x fa-2x"
