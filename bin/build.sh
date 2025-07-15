@@ -9,10 +9,6 @@ set -o errexit
 # Save the initial directory
 ORIGINAL_DIR="$PWD"
 
-# Install npm dependencies
-echo "Installing npm dependencies..."
-npm install --verbose
-
 # Install specific version of Hugo
 HUGO_VERSION="v0.148.1"  # Change this to your required version
 echo "Installing Hugo ${HUGO_VERSION}..."
