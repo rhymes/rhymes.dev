@@ -9,7 +9,7 @@ title = 'Work Experience'
 - <span class="company__name">:house_with_garden: Forem (formerly Dev)</span>
   - :computer: Principal Software Engineer
   - :globe_with_meridians: Remote (US hours)
-  - :spiral_calendar: May 2019 to March 2023
+  - :spiral_calendar: May 2019 to October 2021
 - <span class="company__name">:house_with_garden: Independent consultant</span>
   - :computer: Software Developer (DoveConviene, alittlebit, CommonSense, ...)
   - :globe_with_meridians: Milan, Italy and Remote
